@@ -3,12 +3,10 @@
 Смотреть, какие компоненты используют переменную Figma (и наоборот) — прямо из Figma.
 Работает с любым типом переменных: цвет, spacing, radius, sizing, типографика, opacity, visible.
 
-## Установка (без публикации в Community)
+## Установка
 1. Figma **Desktop** → меню **Plugins → Development → Import plugin from manifest…**
 2. Выбрать `token-inspector/manifest.json` из этого репозитория.
 3. Запуск: **Plugins → Development → Token Inspector**.
-
-Обновить плагин = обновить файлы на диске (`git pull`) — Figma подхватит их при следующем запуске, переимпортировать не нужно.
 
 ## Режимы
 - **Токен → компоненты:** выбрать переменную → «Скан» → список компонентов + счётчики + разбивка по типу привязки (fill/stroke/text/icon/gap/padding/radius/size/font-size/…). Клик по строке = выделить и приблизить компонент на холсте.
